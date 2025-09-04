@@ -1,2 +1,2 @@
 # python_models
-lvdt and vc measurements for smallIP
+pythons models built to illustarte a few concepts used in my phd thesis
