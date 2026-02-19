@@ -76,7 +76,7 @@ def H_gas_single(w, f0=0.3, M=350.0, m=110.0, phi=1e-3, gamma=0.05):
     return num / den
 
 
-def H_gas_cascade(w, f0_list, M=350.0, m=110.0, phi=1e-3, gamma=0.05):
+def H_gas_cascade(w, f0_list, M=350.0, m=11.0, phi=1e-3, gamma=0.05):
     """
     Cascade multiple GAS filters (multiply transfer functions).
     f0_list : list of resonant frequencies for each stage (Hz).
